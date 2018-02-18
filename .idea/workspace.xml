@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518937428025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="admin中添加管理器&amp;注册。时区,语言,utc(False).数据库中选项参数。">
+      <created>1518938468358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518938468358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
