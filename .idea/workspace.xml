@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e18c2e9-2bfd-42ed-ba2d-37633cc7203c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0002_auto_20180221_2353.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/mooc.iml" afterPath="$PROJECT_DIR$/.idea/mooc.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/courses/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/organization/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/organization/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
+      <change beforePath="$PROJECT_DIR$/apps/courses/__init__.py" afterPath="$PROJECT_DIR$/apps/courses/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/apps/courses/apps.py" afterPath="$PROJECT_DIR$/apps/courses/apps.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/__init__.py" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/apps.py" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/__init__.py" afterPath="$PROJECT_DIR$/apps/organization/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/apps.py" afterPath="$PROJECT_DIR$/apps/organization/apps.py" />
+      <change beforePath="$PROJECT_DIR$/apps/users/__init__.py" afterPath="$PROJECT_DIR$/apps/users/__init__.py" />
       <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_banner_emailverifyrecord.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,24 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/operation/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="53" />
-              <folding>
-                <element signature="e#17#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +64,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="模型设计" />
+        <entry key="$PROJECT_DIR$" value="xadmin使用" />
       </map>
     </option>
   </component>
@@ -90,10 +82,18 @@
         <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
         <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
         <option value="$PROJECT_DIR$/mooc/settings.py" />
-        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/apps/courses/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/users/apps.py" />
+        <option value="$PROJECT_DIR$/apps/operation/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/courses/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/organization/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/users/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/courses/apps.py" />
+        <option value="$PROJECT_DIR$/apps/organization/apps.py" />
+        <option value="$PROJECT_DIR$/apps/operation/apps.py" />
       </list>
     </option>
   </component>
@@ -104,8 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="563" />
+    <option name="x" value="163" />
+    <option name="y" value="570" />
     <option name="width" value="1869" />
     <option name="height" value="883" />
   </component>
@@ -163,7 +163,7 @@
               <item name="mooc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mooc" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="organization" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mooc" type="b2602c69:ProjectViewProjectNode" />
@@ -296,20 +296,28 @@
       <option name="project" value="LOCAL" />
       <updated>1519216600169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="注册完成operation,机构，课程app。注意:自行重载str/unicode。补全verbosename。">
+      <created>1519229341450</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1519229341451</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@mooc" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.72227" sideWeight="0.4962963" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@mooc" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7220497" sideWeight="0.4962963" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.50191206" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846087" sideWeight="0.49808794" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26816443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26812816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -339,7 +347,8 @@
     <MESSAGE value="数据表全部生成，migration目录&amp;表django_migration。将app放到apps目录" />
     <MESSAGE value="admin中添加管理器&amp;注册。时区,语言,utc(False).数据库中选项参数。" />
     <MESSAGE value="usersmodels三张表注册进xadmin, 配置搜索过滤展示字段，修复xadmin导出xml错误,导出csv乱码，" />
-    <option name="LAST_COMMIT_MESSAGE" value="usersmodels三张表注册进xadmin, 配置搜索过滤展示字段，修复xadmin导出xml错误,导出csv乱码，" />
+    <MESSAGE value="注册完成operation,机构，课程app。注意:自行重载str/unicode。补全verbosename。" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册完成operation,机构，课程app。注意:自行重载str/unicode。补全verbosename。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -575,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mooc/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -603,11 +605,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="364">
+          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <element signature="e#17#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,6 +622,78 @@
           <folding>
             <element signature="e#17#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="58" lean-forward="false" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
