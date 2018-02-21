@@ -16,11 +16,11 @@
       <sourceFolder url="file://$MODULE_DIR$/mooc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/users" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/apps/organization" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/operation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/courses" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extra_apps/xadmin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extra_apps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/organization" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

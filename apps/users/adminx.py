@@ -1,6 +1,6 @@
-# coding:utf-8
+# encoding:utf-8
 import xadmin
-from .models import EmailVerifyRecord, Banner,UserProfile
+from .models import EmailVerifyRecord, Banner
 
 
 class UserProfileAdmin(object):
@@ -13,6 +13,9 @@ class EmailVerifyRecordAdmin(object):
     list_display = ['code', 'email', 'send_type', 'send_time']
     search_fields = ['code', 'email', 'send_type']
     list_filter = ['code', 'email', 'send_type']
+
+    def __str__(self):
+        return '{0}({1})'.format(self.code, self.email)
 
 
 class BannerAdmin(object):

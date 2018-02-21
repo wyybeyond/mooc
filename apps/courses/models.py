@@ -15,6 +15,7 @@ class Course(models.Model):
     detail = models.TextField(verbose_name=u'课程详情')
     degree = models.CharField(choices=DEGREE_CHOICES, max_length=2)
     learn_times = models.IntegerField(default=0, verbose_name=u'学习时长（分钟数）')
+    students = models.IntegerField(default=0,verbose_name=u'学习人数')
     fav_nums = models.IntegerField(default=0, verbose_name=u'收藏人数')
     image = models.ImageField(
         upload_to='courses/%Y/%m',
