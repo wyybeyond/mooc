@@ -15,7 +15,7 @@ class Course(models.Model):
     detail = models.TextField(verbose_name=u'课程详情')
     degree = models.CharField(choices=DEGREE_CHOICES, max_length=2)
     learn_times = models.IntegerField(default=0, verbose_name=u'学习时长（分钟数）')
-    students = models.IntegerField(default=0,verbose_name=u'学习人数')
+    students = models.IntegerField(default=0, verbose_name=u'学习人数')
     fav_nums = models.IntegerField(default=0, verbose_name=u'收藏人数')
     image = models.ImageField(
         upload_to='courses/%Y/%m',
@@ -29,10 +29,13 @@ class Course(models.Model):
         verbose_name = u'课程'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '{0}'.format(self.name)
+
 
 # 章节
 class Lesson(models.Model):
-    course = models.ForeignKey(Course, verbose_name=u'课程',on_delete=models.CASCADE)
+    course = models.ForeignKey(Course, verbose_name=u'课程', on_delete=models.CASCADE)
     name = models.CharField(max_length=100, verbose_name=u'章节名')
     add_time = models.DateTimeField(default=datetime.now, verbose_name=u'添加时间')
 
@@ -40,10 +43,13 @@ class Lesson(models.Model):
         verbose_name = u'章节'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '{0}《{1}》'.format(self.course, self.name)
+
 
 # 每章视频
 class Video(models.Model):
-    lesson = models.ForeignKey(Lesson, verbose_name=u'章节',on_delete=models.CASCADE)
+    lesson = models.ForeignKey(Lesson, verbose_name=u'章节', on_delete=models.CASCADE)
     name = models.CharField(max_length=100, verbose_name=u'视频名')
     add_time = models.DateTimeField(default=datetime.now, verbose_name=u'添加时间')
 
@@ -51,10 +57,13 @@ class Video(models.Model):
         verbose_name = u'视频'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '{0}《{1}》'.format(self.lesson, self.name)
+
 
 # 课程资源
 class CourseResource(models.Model):
-    course = models.ForeignKey(Course, verbose_name=u'课程',on_delete=models.CASCADE)
+    course = models.ForeignKey(Course, verbose_name=u'课程', on_delete=models.CASCADE)
     name = models.CharField(max_length=100, verbose_name=u'名称')
     download = models.FileField(
         upload_to='course/resource/%Y/%m',
@@ -66,3 +75,6 @@ class CourseResource(models.Model):
     class Meta:
         verbose_name = u'课程资源'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '{0}'.format(self.course)

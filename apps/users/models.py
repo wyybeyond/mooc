@@ -48,6 +48,9 @@ class EmailVerifyRecord(models.Model):
         verbose_name = u'邮箱验证码'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '{0}({1})'.format(self.code, self.email)
+
 
 class Banner(models.Model):
     title = models.CharField(max_length=100, verbose_name=u'标题')
@@ -63,3 +66,6 @@ class Banner(models.Model):
     class Meta:
         verbose_name = u'轮播图'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '{0}'.format(self.title)
