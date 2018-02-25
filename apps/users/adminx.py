@@ -31,8 +31,8 @@ class BaseSetting(object):
 # Xadmin全局配置参数信息设置
 
 class GlobalSettings(object):
-    site_title = '管理系统'
-    site_footer = 'WYYBEYOND'
+    site_title = '慕课网后台管理系统'
+    site_footer = '慕课在线网'
 
     # 收起菜单
     menu_style = 'accordion'
